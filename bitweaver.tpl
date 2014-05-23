@@ -30,11 +30,6 @@
   
 	<div id="tikimain">
 		{include file="bitpackage:liberty/display_structure.tpl"}
-
-		{if $pageError}
-		<div class="error">{$pageError}</div>
-		{/if}
-
 		{include file=$mid}
     </div>
 
